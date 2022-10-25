@@ -7,7 +7,7 @@ if [ $# -ge 1 ]; then
     git remote add origin "https://github.com/Unownisgod/PPS-scripts"
     git remote -v
     git pull -u origin main
-    git push origin main
+    git push main
 else
     echo "Introduce El nombre de usuario como parámetro"
 fi
