@@ -1,4 +1,4 @@
-if [ $# -eq 3 ]; then #Comprueba que se han introducido 3 argumentos
+if [ $# -ge 3 ]; then #Comprueba que se han introducido 3 argumentos
     if [ $1 -ge $2 ]; then #Compara los argumentos
         if [ $1 -ge $3 ]; then
             echo "la mayor altura es $1"
@@ -20,4 +20,5 @@ if [ $# -eq 3 ]; then #Comprueba que se han introducido 3 argumentos
     fi
 else
     echo "Debe introducir 3 argumentos"
+    exit 1
 fi

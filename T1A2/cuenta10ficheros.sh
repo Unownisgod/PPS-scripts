@@ -6,4 +6,5 @@ if [ $# -ge 1 ]; then                              #Conprueba si se le han pasad
     fi
 else
     echo 'Debe introducir 1 parámtro'
+    exit 1
 fi
