@@ -6,7 +6,7 @@ if [ $# -ge 1 ]; then
     git commit -m "First commit"
     git remote add origin "https://github.com/Unownisgod/PPS-scripts"
     git remote -v
-    git pull -u origin main
+    git pull -u origin "https://github.com/Unownisgod/PPS-scripts"
     git push main
 else
     echo "Introduce El nombre de usuario como parámetro"
