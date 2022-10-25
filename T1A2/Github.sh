@@ -1,6 +1,5 @@
 if [ $# -ge 1 ]; then
-    git config --global user.name "$1"
-    git init ..
+    git config user.name    git init ..
     git add ..
     git commit -m "Automatic update"    
     git show-ref
