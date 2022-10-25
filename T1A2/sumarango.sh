@@ -1,6 +1,6 @@
 function forc { #for tipo C
     result=0
-    for ((i = $(($n1 + 1)); i < $n2; i++)); do #Suma todos los elementos desde $1+1 hasta $2
+    for ((i = $n1; i <= $n2; i++)); do #Suma todos los elementos desde $1+1 hasta $2
         result=$(($result + $i))
     done
     echo $result
@@ -8,8 +8,8 @@ function forc { #for tipo C
 
 function forb { #for tipo Bash
     result=0
-    for item in seq $n1 $n2; do #Suma todos los elementos desde $1 hasta $2 mediante seq
-        result=$(($result + $item))
+    for i in $(seq $n1 $n2); do #Suma todos los elementos desde $1 hasta $2 mediante seq
+        result=$(($result + $i))
     done
     echo $result
 
