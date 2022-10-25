@@ -6,4 +6,5 @@ if [ $# -ge 1 ]; then #comprueba si se han introducido parámetros
     fi
 else
     echo "Debe introducir al menos 1 argumento"
+    exit 1
 fi

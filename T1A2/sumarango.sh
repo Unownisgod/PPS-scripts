@@ -27,4 +27,5 @@ if [ $# -ge 2 ]; then #Comprueba si se le han pasado al menos 2 argumentos
     forc
 else
     echo "debe introducir dos números"
+    exit 1
 fi
