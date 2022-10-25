@@ -11,4 +11,4 @@ else
         echo "Ha ocurrido un error al crear el directorio"
     fi
     cp $2 "$1"
-fi
+fi.
