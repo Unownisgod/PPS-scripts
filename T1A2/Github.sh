@@ -1,4 +1,5 @@
 if [ $# -ge 1 ]; then
+    git config --local user.name "$1"
     git init ..
     git add ..
     git commit -m "initial commit"    
